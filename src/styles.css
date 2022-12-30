@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: blue;
+  padding: 7px 15px;
+  border: 1px solid;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+button {
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #31a0ff;
+  padding: 7px 15px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+button:disabled {
+  color: gray;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.filemode_page_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  padding: 25px 0;
+}
+
+.filemode_page_body > div {
+  padding: 25px 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+form label,
+form input {
+  font-size: 16px;
+  text-align: center;
+  padding: 5px 7px;
+  background: none;
+}
+
+form label {
+  font-size: 20px;
+}
+
+form input[type="file"] {
+  background: lightgray;
+  cursor: alias;
+}
+form input[type="number"] {
+  text-align: right;
+}
+
+form input[type="submit"] {
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #31a0ff;
+  padding: 7px 15px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+a {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 15px;
+}
+table > thead {
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: lightblue;
+}
+table > thead td {
+  border-right: 1px solid black;
+  padding: 3px 7px;
+}
+table > thead td:last-child {
+  border-right: none;
+}
+table > tbody tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+table th {
+  padding: 10px 0;
+}
+
+.uimode_page_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  padding: 25px 0;
+}
+
+.uimode_page_body > div {
+  padding: 25px 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.uimode_page_bodyLiftform {
+  flex-direction: row !important;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+.uimode_page_bodyRight {
+  width: 100%;
+}
+
+.uimode_page_bodyRightTop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.uimode_page_bodyRightTop span {
+  font-size: 16px;
+}

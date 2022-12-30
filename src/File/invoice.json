@@ -1,0 +1,7 @@
+{
+  "invoices": [
+    { "sno": 1, "amount": 2300, "item_type": 0 },
+    { "sno": 2, "amount": 23500, "item_type": 1 },
+    { "sno": 3, "amount": 35000, "item_type": 2 }
+  ]
+}
